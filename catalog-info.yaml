@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "Online-Payment-App"
+  name: "Sample-App-From-Github"
   description: |
     The customer authorises payment via an online form allowing the business to automatically collect the funds when due. The business' bank and the customer's bank communicate and action the payment request when the payment is due, ensuring the correct amount is debited from the customer and credited to the business.
   links:
@@ -17,11 +17,15 @@ metadata:
     flowsource/azure-devops-project-key: SPE - Flowsource-Implementation
     backstage.io/techdocs-ref: dir:.
     # cognizant/checkmarx-project-id: CAC_automationenginewindows_v4.3.1-latest
-    # flowsource/sonarqube-project-key: 
+    flowsource/sonarqube-project-key: My-SpringBoot-App
     flowsource/azure-pipelines: Infra_Automation
-    # flowsource/jenkins-pipelines: demo-pipeline
-    # flowsource/jenkins-pipelines-trigger: demo-pipeline
-    flowsource/veracode-app-name: dummy
+    flowsource/jenkins-pipelines: Flowsource-demo-pipeline,Test - pipeline
+    flowsource/jenkins-pipelines-trigger: Flowsource-demo-pipeline,Test - pipeline
+    flowsource/servicenow-configuration-item: ANNIE-IBM
+    flowsource/github-repo-owner : jaswanth-cts
+    flowsource/github-repo-name: Flowsource-1.0.5
+    flowsource/github-host: github.com
+    # flowsource/veracode-app-name: dummy
     # blackduck/project: automation-center-messageinterface/ver.1
     # flowsource/fis-aws-region: us-east-2
     # flowsource/aws-resiliencehub-appname: demotest
